@@ -1,6 +1,5 @@
 /* -------------------- IMPORTED FONTS -------------------- */
-@import url(https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400 );
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 /*-------------------- CSS RESET --------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
@@ -31,56 +30,67 @@ time, mark, audio, video {
 h1 {
     font-family: "Bebas Neue";
     font-size: 40px;
+    font-weight: 400;
 }
 
 h2 {
     font-family: "Bebas Neue";
     font-size: 30px;
+    font-weight: 400;
 }
 
 h3 {
     font-family: "Bebas Neue";
     font-size: 25px;
+    font-weight: 400;
 }
 
 p {
     font-family: "Montserrat";
     font-size: 16px;
+    font-weight: 400;
 }
 
 nav {
     font-family: "Montserrat";
     font-size: 16px;
+    font-weight: 400;
 }
 
 nav a {
     font-family: "Bebas Neue";
     font-size: 20px;
+    font-weight: 400;
 }
 
 nav span {
     font-family: "Bebas Neue";
     font-size: 20px;
+    font-weight: 400;
 }
 
 li {
     font-family: "Montserrat";
     font-size: 16px;
+    font-weight: 400;
 }
 
 menu li {
     font-family: "Bebas Neue";
     font-size: 20px;
+    font-weight: 400;
 }
 
 #social li {
     font-family: "Bebas Neue";
     font-size: 20px;
+    font-weight: 400;
 }
 
 dd {
     font-family: "Montserrat";
     font-size: 16px;
+    font-weight: 400;
 }
 
 dt {
@@ -92,11 +102,13 @@ dt {
 input {
     font-family: "Montserrat";
     font-size: 16px;
+    font-weight: 400;
 }
 
 footer {
     font-family: "Bebas Neue";
     font-size: 20px;
+    font-weight: 400;
 }
 
 /* COLORS */
