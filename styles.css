@@ -43,6 +43,16 @@ h3 {
     font-size: 25px;
 }
 
+p {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+nav {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
 nav a {
     font-family: "Bebas Neue";
     font-size: 20px;
@@ -53,6 +63,11 @@ nav span {
     font-size: 20px;
 }
 
+li {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
 menu li {
     font-family: "Bebas Neue";
     font-size: 20px;
@@ -60,13 +75,30 @@ menu li {
 
 #social li {
     font-family: "Bebas Neue";
-    font-weight: 20px;
+    font-size: 20px;
+}
+
+dd {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+dt {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input {
+    font-family: "Montserrat";
+    font-size: 16px;
 }
 
 footer {
     font-family: "Bebas Neue";
-    font-weight: 20px;
+    font-size: 20px;
 }
+
 /* COLORS */
 :root {
     --black: #0D0D0D;
@@ -78,7 +110,7 @@ footer {
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 /* Provided Small Starter CSS */
-/* nav {
+nav {
     grid-area: nav;
     min-width: 414px;
     background-color: #ffffff;
@@ -87,6 +119,7 @@ footer {
     top: 0;
     z-index:5;
 }
+
 nav ul {
     grid-area: hamberger;
     padding: 0;
@@ -95,14 +128,17 @@ nav ul {
     overflow: hidden;
     max-height: 0;
 }
+
 nav li img {
     display: none;
 }
+
 nav li a {
     display: block;
     padding: 20px;
     text-decoration: none;
 }
+
 nav label {
     cursor: pointer;
     display: inline-block;
@@ -111,13 +147,16 @@ nav label {
     bottom: 5px;
     left: 30px;
 }
+
 nav span {
     display: block;
     position: relative;
- }
+}
+
 nav label svg {
     display: block;
 }
+
 label span:before, label span:after {
     content: '';
     display: block;
@@ -125,18 +164,32 @@ label span:before, label span:after {
     position: absolute;
     width: 100%;
 }
+
 nav input {
     display: none;
 }
+
 nav input:checked ~ ul {
     max-height: 550px;
 }
+
 nav h2 {
     visibility: hidden;
     height: 1px;
     width: 1px;
-} */
+}
+
+/* Start Here */
+body {
+    min-width: 414px;
+}
 
 /*-------------------- MEDIA QUERY (medium) --------------------*/
+@media (min-width: 768px) {
+    
+}
 
 /*-------------------- MEDIA QUERY (large) --------------------*/
+@media (min-width: 1280px) {
+
+}
