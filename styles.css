@@ -61,6 +61,7 @@ nav a {
     font-family: "Bebas Neue";
     font-size: 20px;
     font-weight: 400;
+    color: var(--black);
 }
 
 nav span {
@@ -196,11 +197,20 @@ body {
     min-width: 414px;
     width: 414px;
     background-color: var(--lt-blue);
+    justify-content: center;
 }
 
 header {
     width: 414px;
     background-color: var(--white);
+}
+
+.logo {
+    display: block;
+    position: fixed;
+    height: 100%;
+    left: 170px;
+    z-index: 7;
 }
 
 header p {
@@ -225,7 +235,7 @@ menu li {
 }
 
 h1 {
-    padding: 0.5rem;
+    padding-top: 8.5rem;
     text-align: center;
 }
 
@@ -238,15 +248,38 @@ main {
     background-color: var(--white);
 }
 
-#ingredients ul {
-    /* fix square list */
-    display: list-item;
+.details {
+    padding-bottom: 0.5rem;
+}
+
+.details ul {
+    padding: 0 0.5rem;
+    list-style-type: none;
+}
+
+.details li {
+    padding: 0.2rem 0;
+}
+
+.ingredients {
+    padding-bottom: 0.5rem;
+}
+
+.ingredients ul {
+    padding: 0 1.5rem;
     list-style-type: square;
 }
 
-#directions ol {
-    /* fix numbered list */
-    display: list-item;
+.ingredients li {
+    padding: 0.25rem;
+}
+
+.directions ol {
+    padding: 0 1.5rem;
+}
+
+.directions li {
+    padding: 0.5rem;
 }
 
 aside {
@@ -262,6 +295,13 @@ aside a {
 aside img {
     padding: 2rem 0 2rem 1rem;
     width: 25%;
+}
+
+.search {
+    display: block;
+    position: relative;
+    bottom: 195.5rem;
+    left: 6rem;
 }
 
 footer {
