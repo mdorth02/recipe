@@ -343,7 +343,111 @@ footer img {
 
 /*-------------------- MEDIA QUERY (medium) --------------------*/
 @media (min-width: 768px) {
+    body {
+        min-width: 768px;
+    }
+
+    header {
+        min-width: 768px;
+    }
+
+    h1 {
+        padding-top: 5rem;
+    }
+
+    .logo {
+        display: block;
+        position: fixed;
+        height: 100%;
+        left: 0;
+        z-index: 7;
+    }
+
+    menu {
+        background-color: rgba(255,255,255,0.75);
+        position: relative;
+        top: 4.25rem;
+        padding: 2px;
+    }
     
+    main {
+        min-width: 768px;
+    }
+
+    .details ul {
+        text-align: center;
+    }
+
+    .group {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 0 20px;
+    }
+
+    .box-1 {
+        grid-area: 1/1;
+    }
+
+    .box-2 li {
+        padding: 5px;
+    }
+
+    .box-2 {
+        grid-area: 2/1;
+    }
+
+    .box-3 {
+        grid-area: 1/2;
+    }
+
+    .box-4 {
+        grid-area: 2/2;
+    }
+
+    .box-4 li {
+        padding: 7px;
+    }
+
+    aside {
+        min-width: 768px;
+    }
+
+    .dishes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search {
+        bottom: 166rem;
+        left: 32rem;
+        z-index: 6;
+    }
+
+    nav {
+        min-width: 769px;
+    }
+
+    nav li img {
+        display:contents;
+    }
+
+    nav input {
+        display: contents;
+    }
+
+    footer h2 {
+        visibility: hidden;
+    }
+
+    .closing {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .closing img {
+        width: 25%;
+    }
 }
 
 /*-------------------- MEDIA QUERY (large) --------------------*/
